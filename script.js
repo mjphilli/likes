@@ -1,4 +1,4 @@
 function update(id) {
-    var count = document.getElementById(id).innerText.split(" ")[0];
-    document.getElementById(id).innerText = ++count + " like(s)";
+    var count = document.querySelector("#" + id).innerText.split(" ")[0];
+    document.querySelector("#" + id).innerText = ++count + " like(s)";
 }
